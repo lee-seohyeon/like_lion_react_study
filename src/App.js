@@ -1,9 +1,10 @@
 import './App.css';
+import RefPrac from './week-02/RefPrac';
 
 function App() {
   return (
     <>
-        안늉
+        <RefPrac></RefPrac>
     </>
   );
 }
