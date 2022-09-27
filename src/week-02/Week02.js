@@ -1,14 +1,22 @@
-import React from 'react'
-import RefPrac from './RefPrac'
-import UseEffectPrac from './UseEffectPrac'
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "./css/Week02.css"
 
 const Week02 = () => {
-  return (
-    <>
-    <UseEffectPrac/>
-    <RefPrac/>
-    </>
-  )
-}
+	return (
+		<>
+			{/* <UseEffectPrac />
+			<RefPrac /> */}
 
-export default Week02
+			<NavLink to="/useeffect" className="sub-nav">
+				1) useEffect
+			</NavLink>
+
+            <NavLink to="/useRef" className="sub-nav">
+				2) useRef
+			</NavLink>
+		</>
+	);
+};
+
+export default Week02;

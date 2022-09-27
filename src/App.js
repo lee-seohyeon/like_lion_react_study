@@ -11,23 +11,23 @@ import Notyet from "./components/Notyet";
 import Week03 from "./week-03/Week03";
 import Week04 from "./week-04/Week04";
 import Week05 from "./week-05/Week05";
+import RoutingLink from "./week-03/RoutingLink";
 
 function App() {
 	return (
 		<>
 			<Logo />
 			<Navbar />
-
 			<Routes>
 				<Route path="/usestate" element={<UseStatePrac />}></Route>
-                <Route path="/week02" element={<Week02 />}></Route>
-                <Route path="/useeffect" element={<UseEffectPrac />}></Route>
+				<Route path="/week02" element={<Week02 />}></Route>
+				<Route path="/useeffect" element={<UseEffectPrac />}></Route>
 				<Route path="/useref" element={<RefPrac />}></Route>
-                <Route path="/notyet" element={<Notyet />}></Route>
-                <Route path="/week03" element={<Week03 />}></Route>
-                <Route path="/week04" element={<Week04 />}></Route>
-                <Route path="/week05" element={<Week05 />}></Route>
-				
+				<Route path="/notyet" element={<Notyet />}></Route>
+				<Route path="/week03" element={<Week03 />}></Route>
+				<Route path="/week04" element={<Week04 />}></Route>
+				<Route path="/week05" element={<Week05 />}></Route>
+                <Route path="/routinglink" element={<RoutingLink />}></Route>
 			</Routes>
 		</>
 	);

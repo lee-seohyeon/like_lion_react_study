@@ -1,17 +1,16 @@
-button{
-    color:rgb(0, 0, 0);
-    border-color: #94B49F;
-    background-color: #CEE5D0;
-    font-family: 'Goyang';
-    border-radius: 1vh;
-    border: none;
-    margin-top: 1vh;
-    
+button {
+	color: rgb(0, 0, 0);
+	border-color: #94b49f;
+	background-color: #cee5d0;
+	font-family: "Goyang";
+	border-radius: 1vh;
+	border: none;
+	margin-top: 1vh;
 }
 
-input{
-    border-color: #94B49F;
-    border-style: dashed;
-    margin-right: 1vh;
-    font-family: 'Goyang';
+input {
+	border-color: #94b49f;
+	border-style: dashed;
+	margin-right: 1vh;
+	font-family: "Goyang";
 }

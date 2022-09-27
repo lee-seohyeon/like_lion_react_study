@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-bottom: 15vh;
+    margin-bottom: 10vh;
 }
 
 .navbar-content{
@@ -13,4 +13,10 @@
     padding: 1.3vh;
     border-radius: 4vh;
     font-family: 'KOTRAHOPE';
+    text-decoration: none;
+}
+
+/* NavLink 활용 */
+.active{
+    background-color: #ECB390;
 }

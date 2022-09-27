@@ -20,16 +20,16 @@ const UseStatePrac = () => {
     }
 	return (
 		<>
-        <h3>UseState 뿌셔!</h3>
-			<div>state 란, component 의 상태이다. </div>
+        <h3>useState 뿌셔!</h3>
+			<div>state 란, component 의 상태 </div>
 			<div>
 				useState를 통해서 우리는 component 의 상태를 간편하게 생성하고 업데이트할 수
 				있음.
 			</div>
-			<hr />
+			<hr className="line"/>
 			<div>숫자를 세어보쟛: {count} </div>
 			<button onClick={handleClick}>올라가렴~</button>
-			<hr />
+			<hr className="line"/>
 			<div>Enter 를 누르면 새로운게 생겨나도록 해보자구요!</div>
 			<input type="text" value={input} onChange={handleInputChange}/>
 			<button onClick={handleEnter}>Enter</button>
