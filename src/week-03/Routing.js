@@ -7,7 +7,7 @@ const Routing = () => {
 
 	return (
 		<>
-			<a href="https://noonnu.cc/font_page/79" className="velog">
+			<a href="https://velog.io/@momen_tous__/React-Routing-useNavigate-useLocation" className="velog">
 				{"🔗 개념 정리 VELOG "}
 			</a>
 			<hr className="line" />
