@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./css/UseState.css"
 
 const UseStatePrac = () => {
 	const [count, setCount] = useState(0);
@@ -19,6 +20,7 @@ const UseStatePrac = () => {
     }
 	return (
 		<>
+        <h3>UseState 뿌셔!</h3>
 			<div>state 란, component 의 상태이다. </div>
 			<div>
 				useState를 통해서 우리는 component 의 상태를 간편하게 생성하고 업데이트할 수

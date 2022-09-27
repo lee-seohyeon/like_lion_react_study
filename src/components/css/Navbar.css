@@ -1,0 +1,16 @@
+.navbar-dom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 15vh;
+}
+
+.navbar-content{
+    display: flex;
+    flex-direction: row;
+    background-color: #94B49F;
+    color: white;
+    padding: 1.3vh;
+    border-radius: 4vh;
+    font-family: 'KOTRAHOPE';
+}

@@ -1,0 +1,16 @@
+body{
+    font-family: 'Goyang';
+}
+
+.maintext{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+    font-size: 3vh;
+}
+
+.main-dom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

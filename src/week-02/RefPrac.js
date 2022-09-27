@@ -14,6 +14,7 @@ const RefPrac = () => {
 
 	return (
 		<>
+        <h3>useRef 뿌셔!</h3>
 			<div>state: {count} </div>
 			<div>Ref: {countRef.current}</div>
 			<button onClick={addCount}>state 올라가랏!</button>

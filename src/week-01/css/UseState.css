@@ -1,0 +1,17 @@
+button{
+    color:rgb(0, 0, 0);
+    border-color: #94B49F;
+    background-color: #CEE5D0;
+    font-family: 'Goyang';
+    border-radius: 1vh;
+    border: none;
+    margin-top: 1vh;
+    
+}
+
+input{
+    border-color: #94B49F;
+    border-style: dashed;
+    margin-right: 1vh;
+    font-family: 'Goyang';
+}

@@ -1,0 +1,19 @@
+.title-dom {
+	margin-bottom: 5vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-family: "KOTRAHOPE";
+    justify-content: center;
+}
+
+.main-title {
+	/* background-color: #ecb390;
+    border-radius: 4vh; */
+    color: #ecb390;;
+	font-size: 4vh;
+	padding: 2vh;
+	width: 30%;
+    display: flex;
+    justify-content: center;
+}
