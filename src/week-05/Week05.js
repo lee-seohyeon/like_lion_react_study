@@ -1,12 +1,19 @@
-import React from 'react'
-import Notyet from '../components/Notyet'
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "./css/Week05.css"
 
 const Week05 = () => {
-  return (
-    <>
-    <Notyet/>
-    </>
-  )
-}
+	return (
+		<>
+			<NavLink to="/btnanimation" className="sub-nav">
+				1) Button Animation
+			</NavLink>
 
-export default Week05
+            <NavLink to="/loadinganimation" className="sub-nav">
+				2) Loading Animation
+			</NavLink>
+		</>
+	);
+};
+
+export default Week05;

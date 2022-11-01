@@ -5,9 +5,6 @@ import "./css/Week02.css"
 const Week02 = () => {
 	return (
 		<>
-			{/* <UseEffectPrac />
-			<RefPrac /> */}
-
 			<NavLink to="/useeffect" className="sub-nav">
 				1) useEffect
 			</NavLink>

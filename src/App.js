@@ -12,6 +12,8 @@ import Week03 from "./week-03/Week03";
 import Week04 from "./week-04/Week04";
 import Week05 from "./week-05/Week05";
 import RoutingLink from "./week-03/RoutingLink";
+import BtnAnimation from "./week-05/BtnAnimation";
+import LoadingAnimation from "./week-05/LoadingAnimation";
 
 function App() {
 	return (
@@ -28,6 +30,8 @@ function App() {
 				<Route path="/week04" element={<Week04 />}></Route>
 				<Route path="/week05" element={<Week05 />}></Route>
                 <Route path="/routinglink" element={<RoutingLink />}></Route>
+                <Route path="/BtnAnimation" element={<BtnAnimation/>}></Route>
+                <Route path="/loadinganimation" element={<LoadingAnimation/>}></Route>
 			</Routes>
 		</>
 	);
