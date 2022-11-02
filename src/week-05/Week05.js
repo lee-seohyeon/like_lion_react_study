@@ -12,6 +12,10 @@ const Week05 = () => {
             <NavLink to="/loadinganimation" className="sub-nav">
 				2) Loading Animation
 			</NavLink>
+
+            <NavLink to="/textanimation" className="sub-nav">
+				3) Text Animation
+			</NavLink>
 		</>
 	);
 };

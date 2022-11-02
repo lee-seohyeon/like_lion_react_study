@@ -11,25 +11,25 @@ const LoadingAnimation = () => {
     <div class="load-wrapp">
       <div class="load-1">
         <p>Loading 1</p>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+        <div class="load-line"></div>
+        <div class="load-line"></div>
+        <div class="load-line"></div>
       </div>
     </div>
     <div class="load-wrapp">
       <div class="load-2">
         <p>Loading 2</p>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+        <div class="load-line"></div>
+        <div class="load-line"></div>
+        <div class="load-line"></div>
       </div>
     </div>
     <div class="load-wrapp">
       <div class="load-3">
         <p>Loading 3</p>
-        <div class="line"></div>
-        <div class="line"></div>
-        <div class="line"></div>
+        <div class="load-line"></div>
+        <div class="load-line"></div>
+        <div class="load-line"></div>
       </div>
     </div>
     <div class="load-wrapp">
@@ -76,7 +76,7 @@ const LoadingAnimation = () => {
     <div class="load-wrapp">
       <div class="load-8">
         <p>Loading 8</p>
-        <div class="line"></div>
+        <div class="load-line"></div>
       </div>
     </div>
     <div class="load-wrapp">
