@@ -23,6 +23,8 @@ const Navbar = () => {
             <NavLink to="/week03" className="navbar-content">3주차</NavLink>
             <NavLink to="/week04" className="navbar-content">4주차</NavLink>
             <NavLink to="/week05" className="navbar-content">5주차</NavLink>
+            <NavLink to="/week06" className="navbar-content">6주차</NavLink>
+            <NavLink to="/week07" className="navbar-content">7주차</NavLink>
             </div>
 		</>
 	);

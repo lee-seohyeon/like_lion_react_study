@@ -15,6 +15,8 @@ import RoutingLink from "./week-03/RoutingLink";
 import BtnAnimation from "./week-05/BtnAnimation";
 import LoadingAnimation from "./week-05/LoadingAnimation";
 import TextAnimation from "./week-05/TextAnimation";
+import Week07 from "./week-07/Week07";
+import Week06 from "./week-06/Week06"
 
 function App() {
 	return (
@@ -30,6 +32,8 @@ function App() {
 				<Route path="/week03" element={<Week03 />}></Route>
 				<Route path="/week04" element={<Week04 />}></Route>
 				<Route path="/week05" element={<Week05 />}></Route>
+                <Route path="/week06" element={<Week06 />}></Route>
+                <Route path="/week07" element={<Week07 />}></Route>
                 <Route path="/routinglink" element={<RoutingLink />}></Route>
                 <Route path="/BtnAnimation" element={<BtnAnimation/>}></Route>
                 <Route path="/loadinganimation" element={<LoadingAnimation/>}></Route>
