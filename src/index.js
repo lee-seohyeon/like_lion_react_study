@@ -6,6 +6,7 @@ import { BrowserRouter } from "react-router-dom";
 
 // import reportWebVitals from './reportWebVitals';
 
+window.Kakao.init("	8aa971c6572ec74b5ab278b8e840a564")
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>

@@ -17,6 +17,7 @@ import LoadingAnimation from "./week-05/LoadingAnimation";
 import TextAnimation from "./week-05/TextAnimation";
 import Week07 from "./week-07/Week07";
 import Week06 from "./week-06/Week06"
+import {KakaoShareButton} from "./components/KaKaoShareButton";
 
 function App() {
 	return (
@@ -38,6 +39,7 @@ function App() {
                 <Route path="/BtnAnimation" element={<BtnAnimation/>}></Route>
                 <Route path="/loadinganimation" element={<LoadingAnimation/>}></Route>
                 <Route path="/textanimation" element={<TextAnimation/>}></Route>
+                <Route path="/kakaosharebutton" element={<KakaoShareButton/>}></Route>
 			</Routes>
 		</>
 	);
