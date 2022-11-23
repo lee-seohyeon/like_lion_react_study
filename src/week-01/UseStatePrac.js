@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./css/UseState.css"
-import KakaoShareButton from "../components/KaKaoShareButton";
+// import KakaoShareButton from "../components/KaKaoShareButton";
 
 const UseStatePrac = () => {
 	const [count, setCount] = useState(0);
